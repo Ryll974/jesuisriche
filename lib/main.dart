@@ -4,7 +4,8 @@ void main() {
   runApp(
     MaterialApp(
       home: Scaffold(
-        appBar: AppBar(title: Text("Je suis pété de thunes!")),
+        backgroundColor: Colors.purple[700],
+        appBar: AppBar(title: Text("Je suis riche !", style: TextStyle(color: Colors.amber),),backgroundColor: Colors.black,),
         body: Center(
           child: Image(
             image: AssetImage(

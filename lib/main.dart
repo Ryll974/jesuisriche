@@ -9,7 +9,7 @@ void main() {
           centerTitle: true,
           title: Text(
             "Je suis riche !",
-            style: TextStyle(color: Colors.amber),
+            style: TextStyle(color: Colors.amber,fontSize: 30.0, fontWeight: FontWeight.bold,),
           ),
           backgroundColor: Colors.black,
         ),
